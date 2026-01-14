@@ -3,7 +3,7 @@
 / {
     corne_layout: corne_layout {
         compatible = "zmk,physical-layout";
-        display-name = "corne";
+        display-name = "Vcorne";
         transform = <&default_transform>;
         kscan = <&kscan0>;
         keys  //                     w   h    x    y     rot    rx    ry

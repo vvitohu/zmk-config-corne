@@ -1,6 +1,6 @@
 file_format: "1"
 id: corne
-name: Corne
+name: Vcorne
 type: shield
 url: https://boardsource.xyz/store/5ecc2008eee64242946c98c1
 requires: [pro_micro]
@@ -10,7 +10,7 @@ features:
   - encoder
   - studio
 siblings:
-  - corne_left
-  - corne_right
+  - Vcorne_left
+  - Vcorne_right
 
   
