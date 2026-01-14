@@ -2,9 +2,9 @@
 # SPDX-License-Identifier: MIT
 
 # No whitespace after the comma or in your part name!
-config SHIELD_CORNE_LEFT
+config SHIELD_VCORNE_LEFT
     def_bool $(shields_list_contains,Vcorne_left)
 
 # No whitespace after the comma or in your part name!
-config SHIELD_CORNE_RIGHT
+config SHIELD_VCORNE_RIGHT
     def_bool $(shields_list_contains,Vcorne_right)
