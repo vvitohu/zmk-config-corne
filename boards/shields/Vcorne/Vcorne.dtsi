@@ -39,5 +39,8 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5)     RC(3,6) RC(3,7) RC(3,8) RC(3
         >;
     };
 };
-
+&Vcorne_layout {
+        kscan = <&kscan0>; // Label of the kscan node this layout uses
+        transform = <&default_transform>; // Label of the matrix transform this layout uses
+    };
 
