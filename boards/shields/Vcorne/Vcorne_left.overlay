@@ -1,4 +1,3 @@
-
 #include "Vcorne.dtsi"
 
 &default_transform {
