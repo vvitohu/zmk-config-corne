@@ -13,4 +13,22 @@ if SHIELD_VCORNE_LEFT || SHIELD_VCORNE_RIGHT
 config ZMK_SPLIT
     default y
 
+CONFIG_ZMK_IDLE_TIMEOUT=30
+
+config ZMK_SLEEP
+    default y
+    
+config ZMK_IDLE_SLEEP_TIMEOUT
+    default 3600
+
+  
+config ZMK_EXT_POWER
+    default y
+
+config ZMK_BATTERY_REPORTING
+    default y
+    
+config ZMK_BATTERY_REPORT_INTERVAL
+    default 60
+
 endif
