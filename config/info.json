@@ -64,5 +64,15 @@
       ]
     }
   },
-  "sensors": []
+  "sensors": [
+    {
+      "name": "Left Encoder",
+      "x": 5, 
+      "y": 1
+    },
+    {
+      "name": "Right Encoder",
+      "x": 5,
+      "y": 2
+    }]
 }
