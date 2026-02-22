@@ -18,12 +18,8 @@
         };
     };
 
-    &left_encoder { status = "disabled"; };
-    &right_encoder { status = "disabled"; };
-    
     sensors: sensors {
         compatible = "zmk,keymap-sensors";
-        /* 同時列出，ZMK 會自動尋找當前 Shield 可用的標籤 */
         sensors = <&left_encoder &right_encoder>;
         triggers-per-rotation = <20>;
     };
@@ -55,7 +51,7 @@
                       &lt 1 LEFT_WIN  &kp LEFT_CONTROL  &kp SPACE  &bt BT_CLR_ALL  &kp C_MUTE   &kp ENTER  &lt 1 EQUAL  &kp RALT
             >;
 
-            sensor-bindings = <&rot_kp>;
+            sensor-bindings = <&rot_kp &rot_kp>;
         };
 
         layer_2 {
