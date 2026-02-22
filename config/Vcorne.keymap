@@ -18,6 +18,9 @@
         };
     };
 
+    &left_encoder { status = "disabled"; };
+    &right_encoder { status = "disabled"; };
+    
     sensors: sensors {
         compatible = "zmk,keymap-sensors";
         /* 同時列出，ZMK 會自動尋找當前 Shield 可用的標籤 */
