@@ -20,12 +20,8 @@
 
     sensors: sensors {
         compatible = "zmk,keymap-sensors";
-        /* 根據編譯的 Shield 自動選擇對應的旋鈕標籤 */
-        #if IS_ENABLED(CONFIG_SHIELD_VCORNE_LEFT)
-            sensors = <&left_encoder>;
-        #elif IS_ENABLED(CONFIG_SHIELD_VCORNE_RIGHT)
-            sensors = <&right_encoder>;
-        #endif
+        /* 同時列出，ZMK 會自動尋找當前 Shield 可用的標籤 */
+        sensors = <&left_encoder &right_encoder>;
         triggers-per-rotation = <20>;
     };
 
